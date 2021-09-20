@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <omp.h>
 
 /* Funcion f(x) de la cual se quiere calcular la integral */
 double f(double x)
