@@ -50,6 +50,8 @@ int main(int argc, char *argv[])
    double a, b, result;
    int n, variante;
 
+   printf("Number of threads: %d\n", omp_get_num_threads());
+
    if (argc<2) {
       fprintf(stderr, "Numero de argumentos incorrecto\n");
       return 1;
